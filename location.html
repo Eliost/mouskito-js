@@ -32,8 +32,10 @@
       let age = split[1];
       document.getElementById('age').innerHTML = age;
       let searchPeugeot = window.location.href.length;
-      let splitPeugeot = window.location.href.substr(51);
-      document.getElementById("marque").innerHTML = splitPeugeot;
+      let splitPeugeot = window.location.href.split("voiture/");
+      let marque = splitPeugeot[1];
+      console.log(marque);
+      document.getElementById("marque").innerHTML = marque;
 
 </script>
   
