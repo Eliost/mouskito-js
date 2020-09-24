@@ -1,7 +1,7 @@
 // console.info(jQuery.fn.jquery);
 
 // var tel = document.querySelector("#tel");
-let tel = $('#tel');
+var tel = $('#tel');
 
 tel.on('keyup', function (event) {
     if (isNaN(tel.val())) {

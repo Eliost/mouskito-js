@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Table</title>
+  
+</head>
+<body>
+<script>
+    localStorage.setItem('someData', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ullam temporibus rem animi esse rerum dignissimos, error eum vero ex hic soluta perferendis aspernatur repellendus distinctio molestiae debitis ipsam harum.')
+    let user = {
+        name:"Sookia",
+        firstName:"Khalid",
+        age:25
+    };
+    localStorage.setItem('user',JSON.stringify(user));
+    user = localStorage.getItem('user');
+    console.log(JSON.parse(user));
+    users = Object.values(user);
+    console.log(users);
+</script>
+
+</body>
+</html>

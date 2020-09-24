@@ -1,0 +1,20 @@
+[
+    {
+        "numero":"5",
+        "name": "sookia",
+        "firstName": "khalid",
+        "age": 25
+    },
+    {
+        "numero":"2",
+        "name": "camara",
+        "firstName": "moussa",
+        "age": 34
+    },
+    {
+        "numero":"7",
+        "name": "robin",
+        "firstName": "christelle",
+        "age": 40
+    }
+]
